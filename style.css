@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size :cover;
+    background-color: black;
+   
+}
+#particles-js{
+    height: 100%;
+    background:black;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+}
+h1{
+    position: absolute;
+    font-family: cursive, sans-serif;
+    font-size: 380%;
+    color: aliceblue;
+}
+.header-area h2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 100%;
+    color: rgb(109, 41, 165);
+    font-size: 3.9em;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.header-area h2 span{
+    color: rgb(116, 194, 39);
+}
+header{
+    position: absolute;
+    top: 0;
+    left 0;
+    width: 100%;
+    text-align: center;
+    transition: 0.6s;
+    padding: 25px 0;
+    z-index: 99;
+
+}
+header ul li a{
+    color: rgb(126, 136, 130);
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 40px;
+    font-family: monospace , sans-serif;
+    
+}
+header ul li a:hover{
+    color:rgb(116, 172, 61);
+    font-size: 103%;
+}
+
+.section-title{
+    text-align: center;
+}
+.section-title h2{
+    display: inline block;
+    font-size: 38px;
+    text-transform: uppercase;
+    padding: 0 0 10px;
+    color: white;
+    font-family: monospace,sans-serif;
+    text-decoration: underline solid rgb(61, 201, 61);
+
+}
+.about-info{
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px auto;
+    text-align: center;
+    z-index: 99;
+    color: white;
+    font-family: monospace , sans-serif;
+}
+
+.wrapper{
+   height: 350px;
+   text-align: center;
+   text-shadow: 2px 2px 8px rgb(116, 194, 39);
+   border-radius: 18px;
+   
+}
+.img{
+    height: 350px;
+    border: 1px solid rgb(116, 194, 39);
+    text-shadow: 2px 2px 8px rgb(116, 194, 39);
+    border-radius: 18px;
+    box-shadow: 3px 3px 5px #3b3a3a;
+}
+.location{
+    margin: 10px;
+    text-align: center;
+    color: white;
+    
+}
+.location-png{
+    height: 40px;
+    text-align: center;
+    color: white;
+}
+.location-text{
+    color: rgb(255, 255, 255);
+    margin: 1px;
+    
+}
+.about-info .intro{
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    width: 350px;
+     
+}
+
+.about-infp p{
+    line-height: 28px;
+    font-size: 18px;
+    
+}
+.timeline{
+    margin-top: 20px;
+    display: flex;
+}
+.timeline .col{
+    height: 30%;
+    width: 300px;
+    margin: 5px;
+    padding: 25px 5px;
+    border: 1px solid rgb(116, 194, 39);
+    float: left;
+    font-size: 20px;
+    border-radius: 18px;
+    
+
+}
+
+.timeline h6{
+    margin: 15px 0 0;
+    font-size: 16px;
+    line-height: 24px;
+
+}
