@@ -39,15 +39,16 @@ h1{
     color: rgb(116, 194, 39);
 }
 header{
-    position: absolute;
-    top: 0;
+    position: fixed;
     left 0;
     width: 100%;
     text-align: center;
     transition: 0.6s;
     padding: 25px 0;
     z-index: 99;
-
+    overflow: hidden;
+    position: sticky;  
+    
 }
 header ul li a{
     color: rgb(126, 136, 130);
@@ -55,8 +56,12 @@ header ul li a{
     text-decoration: none;
     margin: 0 40px;
     font-family: monospace , sans-serif;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     
 }
+
 header ul li a:hover{
     color:rgb(116, 172, 61);
     font-size: 103%;
@@ -66,7 +71,6 @@ header ul li a:hover{
     text-align: center;
 }
 .section-title h2{
-    display: inline block;
     font-size: 38px;
     text-transform: uppercase;
     padding: 0 0 10px;
@@ -152,3 +156,103 @@ header ul li a:hover{
     line-height: 24px;
 
 }
+
+.contact-title h2{
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 80px 0px 10px;
+    color: white;
+    font-family: monospace,sans-serif;
+    text-decoration: underline solid rgb(61, 201, 61);
+}
+
+.contact-title2 h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    font-family: monospace,sans-serif;
+
+}
+.timeline2{
+    margin-top: 20px;
+    display: flex;
+    margin: 80px 0 0;
+    justify-content: center;
+}
+
+.wrapper2{
+    text-align: center;
+    margin: 10px 150px 30px;
+ }
+ .img2{
+     height: 39px; 
+     margin: 30px 0 0;
+ }
+ .phone{
+     color: rgb(124, 243, 44);
+     margin: 10px;
+     font-size:16px;
+     font-family: monospace,sans-serif;
+ }
+ .no{
+    color: white;
+    font-family: monospace,sans-serif;
+ }
+
+ .wrapper3{
+    text-align: center;
+    margin: 0px 100px 30px;
+ }
+ .img3{
+    height: 39px; 
+    margin: 30px 0 0;
+ }
+ 
+
+ .mail{
+    color: rgb(124, 243, 44);
+    margin: 10px;
+    font-size:16px;
+    font-family: monospace,sans-serif;
+ }
+ .mailid{
+    color: white;
+    font-family: monospace,sans-serif;
+ }
+
+ .v1{
+    float: left;  
+    border-right: 2px solid rgb(124, 243, 44);
+ }
+
+ .contact-title3 h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    font-family: monospace,sans-serif;
+ }
+ 
+ .social{
+    margin: 80px 0px 50px;
+    text-align: center;
+ }
+ .insta{
+     margin: 0px 50px 0px;
+ }
+ .github{
+    margin: 0px 50px 0px;
+}
+.facebook{
+    margin: 0px 50px 0px;
+}
+.youtube{
+    margin: 0px 50px 0px;
+}
+
+
+ 
