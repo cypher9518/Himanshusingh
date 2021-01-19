@@ -238,7 +238,7 @@ header ul li a:hover{
  }
  
  .social{
-    margin: 80px 0px 50px;
+    margin: 80px 0px 80px;
     text-align: center;
  }
  .insta{
@@ -253,6 +253,22 @@ header ul li a:hover{
 .youtube{
     margin: 0px 50px 0px;
 }
+.footer{
+    color: #212121;
+    padding: 0px 0px 20px;
+}
+.container{
+    color: white;
+    text-align: center;
+    font-size: 14.5px;
 
+}
+.container p{
+    margin: 0px;
+    font-family: monospace,sans-serif;
+}
+.copyright{
+    line-height: 2.4;
+}
 
  
