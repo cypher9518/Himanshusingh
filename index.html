@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Himanshu</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div 
@@ -43,7 +44,7 @@
         </ul></nav>
     </header>
     <section id="about" class="about">
-        <div class="section-title">
+        <div class="section-title" data-aos="zoom-in">
             <h2>About me</h2>
         </div>
 
@@ -68,17 +69,17 @@
                 </p>
             </div>    
             <div class="timeline">
-                <div class="col">
+                <div class="col" data-aos="fade-right">
                     <span>10th</span>
                     <h6>2016-2017 <br>Govt.Excellence H.S.School</h6>
                     
                 </div>
-                <div class="col">
+                <div class="col" data-aos="zoom-out">
                     <span>12th</span>
                     <h6>2017-2018 <br>Govt.Excellence H.S.School</h6>
                     
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-left">
                     <span>B.Tech</span>
                     <h6>2018-2022<br>LNCTE bhopal</h6>
                     
@@ -88,7 +89,7 @@
     </section>
     
     <section id="contact" class="contact">
-        <div class="contact-title">
+        <div class="contact-title" data-aos="zoom-in">
             <h2>Contact</h2>
         </div>
         <div class="contact-title2">
@@ -103,7 +104,7 @@
 
             </div>
 
-            <div class="v1"></div>
+            <div class="v1" data-aos="zoom-in"></div>
 
             <div class="wrapper3">
                 <img class="img3" src="mail.png" alt="mail">
@@ -136,12 +137,16 @@
 
     </footer>
 
-    
-    
-    
-    
-    
-    
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 200,
+        duration: 900
+    });
+</script>
+
 
 </body>
 </html>
