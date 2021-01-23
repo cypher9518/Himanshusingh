@@ -44,11 +44,16 @@ header{
     width: 100%;
     text-align: center;
     transition: 0.6s;
-    padding: 25px 0;
     z-index: 99;
     overflow: hidden;
     position: sticky;  
+    background-color: #202020;
+
     
+}
+.nav{
+    list-style-type: none;
+
 }
 header ul li a{
     color: rgb(126, 136, 130);
@@ -59,16 +64,21 @@ header ul li a{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    
+    padding: 8px;
+      
 }
 
 header ul li a:hover{
-    color:rgb(116, 172, 61);
+    color: rgb(0, 0, 0);
     font-size: 103%;
+    background-color: rgb(116, 172, 61);
+    border-radius: 18px;
+
 }
 
 .section-title{
     text-align: center;
+    margin-top: 80px;
 }
 .section-title h2{
     font-size: 38px;
@@ -78,7 +88,6 @@ header ul li a:hover{
     font-family: monospace,sans-serif;
     text-decoration: underline solid rgb(61, 201, 61);
     
-
 }
 .about-info{
     width: 60%;
@@ -95,6 +104,7 @@ header ul li a:hover{
    text-align: center;
    text-shadow: 2px 2px 8px rgb(116, 194, 39);
    border-radius: 18px;
+   margin-top: 80px;
    
 }
 .img{
@@ -137,8 +147,10 @@ header ul li a:hover{
 .timeline{
     margin-top: 20px;
     display: flex;
+    text-align: center;
+    justify-content: ;
 }
-.timeline .col{
+.timeline .col{ 
     height: 30%;
     width: 300px;
     margin: 5px;
@@ -271,5 +283,3 @@ header ul li a:hover{
 .copyright{
     line-height: 2.4;
 }
-
- 
