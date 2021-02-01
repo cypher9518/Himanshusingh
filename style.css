@@ -53,6 +53,7 @@ header{
 }
 .nav{
     list-style-type: none;
+    position: sticky;
 
 }
 header ul li a{
@@ -282,4 +283,13 @@ header ul li a:hover{
 }
 .copyright{
     line-height: 2.4;
+}
+
+
+::-moz-selection { /* Code for Firefox */
+    background: rgb(77, 131, 40);
+  }
+  
+  ::selection {
+    background:   rgb(77, 131, 40);
 }
