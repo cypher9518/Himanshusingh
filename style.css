@@ -17,7 +17,7 @@ body{
 }
 h1{
     position: absolute;
-    font-family: cursive, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 380%;
     color: aliceblue;
 }
@@ -84,7 +84,7 @@ header ul li a:hover{
 .section-title h2{
     font-size: 38px;
     text-transform: uppercase;
-    padding: 0 0 10px;
+    padding: 0 0 25px;
     color: white;
     font-family: monospace,sans-serif;
     text-decoration: underline solid rgb(61, 201, 61);
@@ -145,14 +145,18 @@ header ul li a:hover{
     font-size: 18px;
     
 }
+
+.projects{
+    margin-top: 60px;
+}
 .timeline{
     margin-top: 20px;
     display: flex;
     text-align: center;
-    justify-content: ;
+    justify-content: center;
 }
 .timeline .col{ 
-    height: 30%;
+    min-height: 15vh;
     width: 300px;
     margin: 5px;
     padding: 25px 5px;
@@ -160,8 +164,16 @@ header ul li a:hover{
     float: left;
     font-size: 20px;
     border-radius: 18px;
-    
 
+}
+.timeline span{
+    text-decoration: underline solid rgb(61, 201, 61);
+}
+.timeline a{
+    color: rgb(0, 0, 0);
+    background-color: rgb(124, 243, 44);
+    border-radius: 18px;
+    text-decoration: none;
 }
 
 .timeline h6{
@@ -175,7 +187,7 @@ header ul li a:hover{
     font-size: 38px;
     text-transform: uppercase;
     text-align: center;
-    padding: 80px 0px 10px;
+    padding: 40px 0px 10px;
     color: white;
     font-family: monospace,sans-serif;
     text-decoration: underline solid rgb(61, 201, 61);
