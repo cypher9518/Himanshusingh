@@ -287,6 +287,12 @@ header ul li a:hover{
 .youtube{
     margin: 0px 50px 0px;
 }
+.abcd{
+    margin-top: 7px;
+}
+.xyz{
+    min-height: 75px;
+}
 .footer{
     color: #212121;
     padding: 0px 0px 20px;
